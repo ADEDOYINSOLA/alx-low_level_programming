@@ -1,4 +1,4 @@
-#!/bin/bash
+#include<stdio.h>
 /**
  * main - A program that prints a line
  * Return:0 (success)
