@@ -1,15 +1,15 @@
 #include<stdio.h>
 /**
- * main - prints the lower case alphabet
+ * main - prints number from 0 to 9
  * Return: always 0
  */
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (i = 48; i < 58; i++)
 	{
-		putchar (ch);
+		putchar (i)
 	}
 	putchar ('\n');
 	return (0);
