@@ -1,15 +1,20 @@
 #include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
 /**
- * main - prints numbers from 0 t0 9
+ * main - Prints alphabet
  * Return: always 0
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 97; i < 123; i++)
 	{
-		printf("%d", i);
+		if (i != 101 && i != 113)
+		{
+			putchar (i);
+		}
 	}
 	putchar ('\n');
 	return (0);
