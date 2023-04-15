@@ -1,0 +1,1 @@
+ststic libriaries
